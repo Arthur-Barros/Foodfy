@@ -3,7 +3,7 @@ Projeto desenvolvido no LaunchBase
 
 <h1 align="center">
 <br>
-  <img src="YOUR_LOGO_URL" alt="YOUR_PROJECT_NAME" width="120">
+  <img src="https://ik.imagekit.io/xlj9cejf8v/foodfy_ZUK4MyznJ.JPG" alt="YOUR_PROJECT_NAME" width="120">
 <br>
 <br>
 YOUR_PROJECT_NAME
@@ -11,11 +11,6 @@ YOUR_PROJECT_NAME
 
 <p align="center">A little description about your project</p>
 
-<p align="center">
-  <a href="https://opensource.org/licenses/MIT">
-    <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License MIT">
-  </a>
-</p>
 
 [//]: # (Add your gifs/images here:)
 <div>

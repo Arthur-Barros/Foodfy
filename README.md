@@ -1,38 +1,54 @@
-# Foodfy
-Projeto desenvolvido no LaunchBase
-
 <h1 align="center">
-<br>
-  <img src="https://ik.imagekit.io/xlj9cejf8v/foodfy_ZUK4MyznJ.JPG" alt="YOUR_PROJECT_NAME" width="120">
-<br>
-<br>
-YOUR_PROJECT_NAME
+  <img src="projeto-foodfy/assets/logo.png" alt="Imagem referente a o site">
 </h1>
 
-<p align="center">A little description about your project</p>
+## Home Foodfy
 
+<h1>
+  <img src="https://ik.imagekit.io/xlj9cejf8v/home.foodfy_Iej-kMb-9.gif" alt="gif referente a home">
+</h1>
 
-[//]: # (Add your gifs/images here:)
-<div>
-  <img src="IMAGE_1_URL" alt="demo" height="425">
-  <img src="IMAGE_2_URL" alt="demo" height="425">
-</div>
+## Receitas Foodfy
+<h1>
+  <img src="https://ik.imagekit.io/xlj9cejf8v/receitas_7iIDQQsGw.gif" alt="gif referente a receitas">
+</h1>
 
-<hr />
+# Indice
+- [Sobre](#-sobre)
+- [Tecnologias utilizadas](#-tecnologias-utilizadas)
+- [Como baixar o projeto](#-como-baixar-o-projeto)
 
-## Features
-[//]: # (Add the features of your project here:)
-This app features all the latest tools and practices in mobile development!
+## Sobre
 
-- ⚛️ **React Js** — A JavaScript library for building user interfaces
-- ⚛️ **React Native** — A lib that provides a way to create native apps for Android and iOS
-- 💹 **Node Js** — A web framework for Node Js
+O projeto **Foodfy** foi desenvolvido no curso do **Bootcamp Launch Base**, com o objetivo de práticar todo conteúdo estudado dentro do curso. 
 
-## Getting started
+---
 
-Describe here the way to use/install your project
+## Tecnologias utilizadas
 
+o projeto foi desenvolvido usando as seguintes tecnologias
 
-## License
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [Css](https://www.w3schools.com/Css/)
+- [Html](https://www.w3schools.com/html/)
 
-This project is licensed under the MIT License - see the [LICENSE](https://opensource.org/licenses/MIT) page for details.
+---
+
+## Como baixar o projeto
+
+```bash
+# Clonar repositório
+$ git clone https://github.com/Arthur-Barros/Foodfy
+
+# Entrar no diretório
+$ cd Foodfy
+
+# Instalar as dependências
+$ npm install
+
+# Iniciar o Projeto
+$ npm run dev
+
+```
+---
+Desenvolvido por Arthur Barros

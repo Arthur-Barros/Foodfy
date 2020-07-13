@@ -16,7 +16,10 @@
 # Indice
 - [Sobre](#sobre)
 - [Tecnologias utilizadas](#tecnologias-utilizadas)
+- [Como Utilizar](#como-utilizar)
 - [Como baixar o projeto](#como-baixar-o-projeto)
+
+---
 
 ## Sobre
 
@@ -31,6 +34,13 @@ o projeto foi desenvolvido usando as seguintes tecnologias
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [Css](https://www.w3schools.com/Css/)
 - [Html](https://www.w3schools.com/html/)
+
+---
+
+## Como utilizar
+Para executar essa aplicação você vai precisar dos seguintes softwares instalados em seu computador:
+- [NodeJs](https://nodejs.org/en/)
+- [Git](https://git-scm.com/)
 
 ---
 
@@ -52,4 +62,4 @@ $ npm run dev
 ```
 ---
 
-Desenvolvido por **Arthur Barros**
+Desenvolvido por **Arthur Barros** [Entre em contato](https://www.linkedin.com/in/arthur-barros-/)

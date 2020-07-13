@@ -14,10 +14,7 @@
 </h1>
 
 # Indice
-- [Sobre](#sobre)
-- [Tecnologias utilizadas](#tecnologias-utilizadas)
-- [Como Utilizar](#como-utilizar)
-- [Como baixar o projeto](#como-rodar-o-projeto)
+- [Sobre](#sobre) | [Tecnologias utilizadas](#tecnologias-utilizadas) | [Como Utilizar](#como-utilizar) | [Como rodar o projeto](#como-rodar-o-projeto)
 
 ---
 

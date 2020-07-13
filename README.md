@@ -17,7 +17,7 @@
 - [Sobre](#sobre)
 - [Tecnologias utilizadas](#tecnologias-utilizadas)
 - [Como Utilizar](#como-utilizar)
-- [Como baixar o projeto](#como-baixar-o-projeto)
+- [Como baixar o projeto](#como-rodar-o-projeto)
 
 ---
 
@@ -44,7 +44,7 @@ Para executar essa aplicação você vai precisar dos seguintes softwares instal
 
 ---
 
-## Como baixar o projeto
+## Como rodar o projeto
 
 ```bash
 # Clonar repositório

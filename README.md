@@ -14,9 +14,9 @@
 </h1>
 
 # Indice
-- [Sobre](#-sobre)
-- [Tecnologias utilizadas](#-tecnologias-utilizadas)
-- [Como baixar o projeto](#-como-baixar-o-projeto)
+- [Sobre](#sobre)
+- [Tecnologias utilizadas](#tecnologias-utilizadas)
+- [Como baixar o projeto](#como-baixar-o-projeto)
 
 ## Sobre
 

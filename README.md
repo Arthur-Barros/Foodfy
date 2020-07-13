@@ -51,4 +51,5 @@ $ npm run dev
 
 ```
 ---
-Desenvolvido por Arthur Barros
+
+Desenvolvido por **Arthur Barros**

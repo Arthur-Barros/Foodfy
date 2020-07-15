@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="projeto-foodfy/assets/logo.png" alt="Imagem referente a o site">
+  <img src="projeto-foodfy/public/assets/logo.png" alt="Imagem referente a o site">
 </h1>
 
 ## Home Foodfy

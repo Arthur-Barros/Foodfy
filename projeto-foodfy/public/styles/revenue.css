@@ -1,0 +1,30 @@
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 auto;
+    max-width: 900px;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.card__image-container img{
+    height: 140px;
+    width: 100%;
+    border-radius: 15px;
+
+}
+
+.card__content{
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: 15px;
+}
+
+.card__info{
+    color:#777777;
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 5px;
+    
+}

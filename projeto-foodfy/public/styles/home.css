@@ -1,0 +1,80 @@
+/*** banner  **/
+
+.banner{
+    background: rgba(251, 223, 219, 1);
+    border-radius: 30px;
+    max-width: 900px;
+    max-height: 366px;
+    margin: 0 auto;
+    display: flex;
+    padding: 10px;
+}
+
+.banner .content-text{
+    margin-top: 70px;
+    padding: 50px;
+    text-align: justify;
+}
+
+
+.banner .content-text h1{
+    display: flex;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+
+.banner .content-text p{
+    display: flex;
+    font-size: 18px;
+    line-height: 28px;
+    opacity: 0.7;
+    margin-top: 10px;
+}
+
+.banner .content-img {
+    padding: 20px 30px 0px;
+    margin: 40px 100px 0px 100px;
+    width: 216px;
+    height: 300px;
+}
+
+#title{
+    max-width: 900px;
+    margin-bottom: 16px;
+    margin: 30px auto;
+}
+
+
+/** Cards**/
+
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 auto;
+    max-width: 900px;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.card__image-container img{
+    height: 140px;
+    width: 100%;
+    border-radius: 15px;
+
+}
+
+.card__content{
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: 15px;
+}
+
+.card__info{
+    color:#777777;
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 5px;
+    
+}

@@ -1,0 +1,19 @@
+{
+  "name": "projeto-foodfy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "data.js",
+  "scripts": {
+    "start": "node-dev server.js"
+  },
+  "keywords": [],
+  "author": "Arthur Barros",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.1"
+  },
+  "devDependencies": {
+    "node-dev": "^5.0.0"
+  }
+}

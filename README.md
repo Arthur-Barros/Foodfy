@@ -15,7 +15,7 @@
 
 ## Receitas Refatorada Foodfy
 <h1>
-  <img src=https://ik.imagekit.io/xlj9cejf8v/desafiorefatorandoofoodfy__glhSs5We.gif" alt="gif referente a receitas">
+  <img src="https://ik.imagekit.io/xlj9cejf8v/desafiorefatorandoofoodfy__glhSs5We.gif" alt="gif referente a receitas">
 </h1>
 
 # Indice

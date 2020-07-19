@@ -8,5 +8,5 @@ footer{
 
 
 footer p{
-    color:#777777;
+    color:var(--color-grey);
 }

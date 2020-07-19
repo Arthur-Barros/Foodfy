@@ -1,0 +1,16 @@
+.error{
+    text-align: center;
+    padding: 60px;
+    border: 1px solid red;
+    margin: 40vh auto;
+    max-width: 800px;
+    border-radius: 3px;
+    background-color: black;
+    border-radius: 40px;
+}
+
+.error p{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}

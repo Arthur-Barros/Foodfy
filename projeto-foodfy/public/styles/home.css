@@ -72,7 +72,7 @@
 }
 
 .card__info{
-    color:#777777;
+    color:var(--color-grey);
     font-size: 14px;
     line-height: 16px;
     margin-top: 5px;

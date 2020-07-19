@@ -1,20 +1,39 @@
-const modalOverlay = document.querySelector(".modal-overlay");
 const cards = document.querySelectorAll(".card");
 
 
 for(let card of cards){
+    
     card.addEventListener("click",  function(){
         const cardId = card.getAttribute("id");
-        modalOverlay.classList.add("active");
-        modalOverlay.querySelector("img").src = `./assets/${cardId}.png`;
-        const title = card.querySelector(".card__content p").textContent;
-        const content = card.querySelector(".card__info p").textContent;
-        modalOverlay.querySelector(".modal-title p").innerHTML = title;
-        modalOverlay.querySelector(".modal-content p").innerHTML = content;
+        window.location.href = `/recipe/${cardId}`;
+
     });
 }
 
-document.querySelector(".close-modal").addEventListener("click", function(){
-    modalOverlay.classList.remove("active");
-});
 
+const preparations = document.querySelectorAll(".preparation_recipe");
+
+const button = document.querySelectorAll(".button");
+
+for(let i = 0; i < button.length; i++){
+
+    if(preparations[i].innerHTML == ""){
+        button[i].innerHTML = "";
+        preparations[i].innerHTML = "Não temos informação adicional dessa receita."
+    }
+
+    button[i].addEventListener("click", function(){
+        
+       
+        if(button[i].innerHTML == "Esconder"){
+            preparations[i].classList.add("active");
+            button[i].innerHTML = "Mostrar"
+        }else{
+            preparations[i].classList.remove("active"); 
+            button[i].innerHTML = "Esconder"
+        }
+        
+      
+
+    });
+}

@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="projeto-foodfy/assets/logo.png" alt="Imagem referente a o site">
+  <img src="projeto-foodfy/public/assets/logo.png" alt="Imagem referente a o site">
 </h1>
 
 ## Home Foodfy
@@ -11,6 +11,11 @@
 ## Receitas Foodfy
 <h1>
   <img src="https://ik.imagekit.io/xlj9cejf8v/receitas_7iIDQQsGw.gif" alt="gif referente a receitas">
+</h1>
+
+## Receitas Refatorada Foodfy
+<h1>
+  <img src="https://ik.imagekit.io/xlj9cejf8v/desafiorefatorandoofoodfy__glhSs5We.gif" alt="gif referente a receitas">
 </h1>
 
 # Indice

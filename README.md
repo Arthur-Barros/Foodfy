@@ -59,7 +59,7 @@ $ cd Foodfy
 $ npm install
 
 # Iniciar o Projeto
-$ npm run dev
+$ npm start
 
 ```
 ---

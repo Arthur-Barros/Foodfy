@@ -1,0 +1,35 @@
+{% extends "users/layout.njk" %}
+
+
+{% block styles%}
+    <link rel="stylesheet" href="/styles/user/home_recipe.css">
+{% endblock %}    
+
+{% block head %}        
+    <title>Foodfy - Revenue</title>
+{% endblock %}        
+{% block content %}
+    <section class="cards">
+        {% for recipe in recipes %}
+            <div class="card" id="{{recipe.id}}">
+                <div class="card__image-container">
+                    <img src="{{recipe.image}}" alt="{{recipe.name}}">
+                </div>
+
+                <div class="card__content">
+                    <p>{{recipe.name}}</p>
+
+                </div>
+
+                <div class="card__info">
+                    <p>{{recipe.author}}
+                    </p>
+
+                </div>
+            </div>    
+        {% endfor %}
+    </section>  
+
+
+    <script src="scripts.js"></script>     
+{% endblock %}    

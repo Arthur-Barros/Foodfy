@@ -1,0 +1,66 @@
+<div class="item">
+    <div>Imagem da Receita</div>
+    <div>
+        <input type="url" name="image" placeholder="http//" value="{{recipe.image}}">
+    </div>
+</div>
+
+<div class="item">
+    <div>Nome da Receita</div>
+    <div>
+        <input type="text" name="name" placeholder="Nome da receita" value="{{recipe.name}}">
+    </div>
+</div>
+
+<div class="item">
+    <div>Autor da Receita</div>
+    <div>
+        <input type="text" name="author" placeholder="Nome do Autor da Receita" value="{{recipe.author}}">
+    </div>
+</div>
+
+<div class="item">
+    <div id="ingredients">
+        <div>Ingredientes</div>
+        {% if recipe.ingredients%}
+            {% for ingredient in recipe.ingredients%}
+                <div class="ingredient">
+                    <input type="text" name="ingredients[]" placeholder="Adicione ingredientes" value="{{ingredient}}">
+                </div>
+            {% endfor %}
+        {% else %}
+            <div class="ingredient">
+                <input type="text" name="ingredients[]" placeholder="Adicione ingredientes">
+            </div>
+        {% endif %}
+
+    </div>
+        <span class="add-ingredient">Adicionar novo ingrediente</span>
+</div>
+
+<div class="item">
+    <div id="preparations">
+        <div>Modo de preparo</div>
+        {% if recipe.preparations %}
+            {% for preparation in recipe.preparations%}
+                <div class="preparation">
+                    <input type="text" name="preparations[]" placeholder="Adicione o modo de preparo" value="{{preparation}}">
+                </div>
+            {% endfor %}
+        {% else %}
+            <div class="preparation">
+                <input type="text" name="preparations[]" placeholder="Adicione o modo de preparo">
+            </div>
+        {% endif %}
+
+    </div>
+        <span class="add-preparation">Adicionar novo passo</span>
+</div>
+
+
+<div class="item">
+    <div>Informações adicionais</div>
+    <div>
+        <textarea id="story" name="information" rows="18" cols="30">{{recipe.information}}</textarea>
+    </div>
+</div>

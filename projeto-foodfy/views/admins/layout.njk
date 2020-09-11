@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>  
+    <head>
+        <link rel="shortcut icon" href="/assets/logoo.jpg" type="image/x-icon">
+        <link rel="stylesheet" href="/styles/main.css">
+        <link rel="stylesheet" href="/styles/admin/admin.css">
+
+        {% block head %}
+            <title>Foodfy</title>
+        {% endblock head %}
+
+        {% block styles %}
+        {% endblock styles %}
+    </head>
+
+    <body>
+
+        <header>
+            <div class="image-container">
+                <a href="/admins/index"><img src="/assets/admlogo.png" alt="Logo"></a>
+            </div>
+        </header>
+
+        <section class="content">
+            {% block content %}
+            {% endblock content %}
+        </section>
+
+
+    </body>
+
+
+</html>

@@ -1,12 +1,12 @@
-{% extends "layout.njk" %}
+{% extends "users/layout.njk" %}
 
 
 {% block styles %}
-    <link rel="stylesheet" href="/styles/recipe_details.css">
+    <link rel="stylesheet" href="/styles/user/recipe_details.css">
 {% endblock %}
 
 {% block head %}
-    <title>foodfy - recipe_ingredients</title>
+    <title>Foodfy - {{recipe.name}}</title>
 {% endblock %}
 
 {% block content %}
@@ -14,17 +14,16 @@
     <div class="banner_card">
 
         <div class="image__banner">
-            <img src="{{recipe.image}}" alt="">
+            <img src="{{recipe.image}}" alt="{{recipe.name}}">
         </div>
 
         <div class="card__content">
-            <p>{{recipe.title}}</p>
+            <p>{{recipe.name}}</p>
 
         </div>
 
         <div class="card__info">
-            <p>{{recipe.author}}
-            </p>
+            <p>por {{recipe.author}}</p>
 
         </div>
 
@@ -49,7 +48,7 @@
             </div>
 
             <ul class="preparation_recipe">
-                {% for preparation in recipe.preparation%}
+                {% for preparation in recipe.preparations%}
                     <li>
                         {{preparation}}
                     </li>

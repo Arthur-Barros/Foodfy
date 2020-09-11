@@ -24,7 +24,6 @@
 
 .procedure{
     margin: 20px;
-    max-width: 600px;
 }
 
 .wrapper{
@@ -45,6 +44,7 @@
     transition: color 200ms;
 }
 
+
 .procedure h2{
     font-size: 28px;
     line-height: 28px;
@@ -63,4 +63,20 @@
 
 .preparation_recipe.active{
     display: none;
+}
+
+.edit{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: space-between;
+    margin: 20px 5px;
+}
+
+.edit a{
+    background-color: #6558C3;
+    padding: 10px;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
 }

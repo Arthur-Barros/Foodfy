@@ -3,7 +3,6 @@
 </h1>
 
 ## :house: Home Foodfy
-
 <h1>
   <img src="https://ik.imagekit.io/xlj9cejf8v/home.foodfy_Iej-kMb-9.gif" alt="gif referente a home">
 </h1>
